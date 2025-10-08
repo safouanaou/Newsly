@@ -1,0 +1,50 @@
+/*Header*/
+
+h2 {
+    font-size: 1.3em;
+}
+
+#logo {
+    color: white;
+    font-size: 3em;
+    font-family: jaro;
+    border: rgb(238, 255, 0) solid 2px;
+
+}
+
+.main-header {
+    background-color: #2E2E2E;
+    border: blue solid 2px;
+    padding-right: 10rem;
+}
+
+.navbar {
+    border: rgb(52, 231, 12) solid 2px;
+
+}
+
+.header-menu {
+    border: red solid 3px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-family: jaro;
+}
+
+.secondary-header {
+    background-color: #E67373;
+    font-family: jaro;
+    color: white;
+}
+
+
+
+
+
+/*Main*/
+
+
+
+
