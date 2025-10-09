@@ -16,28 +16,53 @@
   </head>
   <body>
 
-    <!--la section header du site en utilisant l'element semantic <header>-->
+    <!--Header-->
     <header>
-        <div class="main-header container-fluid py-2 d-flex justify-content-between">
+        <div class="main-header container-fluid py-2 d-flex align-items-center">
           <h1 id="logo" class="ps-5">NEWSLY</h1>
 
-          <nav class="navbar navbar-expand-lg  w-100 justify-content-center">
-            <ul class="header-menu list-unstyled d-flex gap-5 fs-4">
+          <nav class="navbar navbar-expand-lg w-100">
+            <ul class="header-menu list-unstyled d-flex gap-5 fs-4 mx-auto">
               <li><a href="" class="menu-link">Articles</a></li>
               <li><a href="" class="menu-link">Contact</a></li>
               <li><a href="" class="menu-link">A propos</a></li>
             </ul>
+            <a href="">
+              <img id="search-icon" src="/assets/icons/magnifying-glass.svg" alt="search-icon" class="me-4">
+            </a>
           </nav>
+          
+
         </div>
 
-        <div class="secondary-header container-fluid py-2">
+        <div class="secondary-header container-fluid d-flex py-2 justify-content-between align-items-center">
 
-          <div class="theme-taille-edit d-flex">
-            <h2>Theme</h2>
+          <div class="theme-taille-edit d-flex justify-content-center align-items-center">
+            <!--theme edit-->
+            <div class="theme-edit d-flex justify-content-center align-items-center me-5">
+              <h2 class="fs-4">Theme</h2>
+              <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2">
+                <span class="fs-5">Light</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor" class="ms-2">
+                    <polygon points="6,9 12,15 18,9" />
+                  </svg>
+              </button>
+            </div>
+            <!--size edit-->
+            <div class="size-edit d-flex justify-content-center align-items-center">
+              <h2 class="fs-4">Taille</h2>
+              <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2">
+                <span class="fs-5">Moyenne</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor" class="ms-2">
+                    <polygon points="6,9 12,15 18,9" />
+                  </svg>
+              </button>
+            </div> 
+        
           </div>
           
-          <div class="coord-mouse">
-
+          <div class="coord-mouse d-flex justify-content-center align-items-center bg-light gap-3 px-3">
+            X: --- , Y: ---
           </div>
 
 
