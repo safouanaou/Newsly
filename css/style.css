@@ -51,8 +51,12 @@ h2 {
 
 /*Main*/
 
-main {
+body {
 
+}
+
+.main-container {
+    width: 80%;
 }
 
 main section {
@@ -60,23 +64,20 @@ main section {
 }
 
 .primary-news {
-    border: blue solid 2px;
-
+    width: 80%;
+    margin-bottom: 5%;
 }
 
 /*TODO: change height when screen is smaller*/
 .articles-container {
     height: 500px;
-    border: blue solid 2px;
-
 }
 
 article {
-    height: 180px;
+    height: 280px;
 }
 
 aside {
-    border: red solid 2px;
 }
 
 
@@ -85,7 +86,8 @@ aside {
 
 }
 
-
+.secondary-news{
+}
 
 .secondary-articles {
 
@@ -102,12 +104,10 @@ aside {
 }
 
 .appah{
-        border: red solid 2px;
 
 }
 
 
 .pah{
-        border: red solid 2px;
 
 }
