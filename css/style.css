@@ -51,6 +51,63 @@ h2 {
 
 /*Main*/
 
+main {
+
+}
+
+main section {
+
+}
+
+.primary-news {
+    border: blue solid 2px;
+
+}
+
+/*TODO: change height when screen is smaller*/
+.articles-container {
+    height: 500px;
+    border: blue solid 2px;
+
+}
+
+article {
+    height: 180px;
+}
+
+aside {
+    border: red solid 2px;
+}
+
+
+.main-article {
+    background-color: #2E2E2E;
+
+}
 
 
 
+.secondary-articles {
+
+}
+
+.secondary-news article{
+        background-color: #E67373;
+
+
+}
+
+.secondary-articles-container {
+
+}
+
+.appah{
+        border: red solid 2px;
+
+}
+
+
+.pah{
+        border: red solid 2px;
+
+}
