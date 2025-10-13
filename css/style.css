@@ -103,11 +103,10 @@ aside {
 
 }
 
-.appah{
-
-}
-
-
-.pah{
-
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #2E2E2E;
+    margin-top: 200px;
+    text-align: center;
 }
