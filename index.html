@@ -13,6 +13,7 @@
     <!---->
     <link rel="script" href="js/script.js">
     <script src="js/script.js" defer></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
   <body>
 
@@ -37,14 +38,13 @@
         </div>
 
         <div class="secondary-header container-fluid d-flex py-2 justify-content-between align-items-center">
-    <!--TODO: center Theme and Taille span elements with the buttons-->
           <div class="theme-taille-edit d-flex justify-content-center align-items-center">
             <!--theme edit-->
             <div class="theme-edit d-flex justify-content-center align-items-center me-5">
               <h2 class="fs-4">Theme</h2>
 
 
-
+            <!--TODO: use the tags select and option instead of button and li -->
             <div class="dropdown d-inline">
               <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="fs-5">Light</span>
@@ -115,7 +115,6 @@
           </div>  
       </section>
 
-      <!--TODO: align the aside section with the upper main section-->
       <aside class="container py-3">
         <h2 class="primary-section-title fs-1 fw-bold pb-3">Autre actualités</h2>
         <section class="secondary-news">
