@@ -1,3 +1,4 @@
+
 const HomePage = {
     template: `
         <main>
@@ -6,7 +7,6 @@ const HomePage = {
             <div class="articles-container row my-4">
 
               <div class="col-md-6">
-                <article class=" main-article h-100"></article>
               </div>
 
               <div class="secondary-news col-md-6">
@@ -37,7 +37,9 @@ const HomePage = {
         </aside>
 
       </main>
-    `
+    `,
+
+
 }
 
 export default HomePage

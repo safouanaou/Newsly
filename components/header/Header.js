@@ -1,5 +1,8 @@
 
-const websiteHeader = {
+export default {
+
+  name: "Header", 
+
     template: `
         <header>
           <div class="main-header container-fluid py-1 d-flex align-items-center">
@@ -94,4 +97,3 @@ const websiteHeader = {
     }
 }
 
-export default websiteHeader
