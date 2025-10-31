@@ -6,6 +6,7 @@ const Card = {
             </div>
             <h2>{{ title }}</h2>
             <p v-if="isContentVisible>{{ content }}</p>
+            <button @click="" v-if="isMain">Masquer</button>
         </div>
     `,
 
@@ -13,11 +14,14 @@ const Card = {
         title: String,
         image: String,
         content: String,
+        isMain: Boolean
     },
 
     data(){
         return {
-            isContentVisible: true
+            isContentVisible: true,
+            isVisible: true
         }
     },
+
 }
