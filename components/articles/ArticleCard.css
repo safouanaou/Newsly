@@ -1,0 +1,22 @@
+.article-card {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width:fit-content;
+}
+
+.image-container {
+    width: 350px;
+    height: 350px;
+}
+
+.image-container img{
+    border-radius: 10px;
+
+
+}
+
+

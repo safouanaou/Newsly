@@ -27,7 +27,7 @@ const websiteHeader = {
 
                 <div class="dropdown ms-2">
                   <button
-                    class="btn btn-light dropdown-toggle align-middle py-0 px-2"
+                    class="btn dropdown-toggle align-middle py-0 px-2"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -48,7 +48,7 @@ const websiteHeader = {
 
 
               <div>
-                <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type="button" class="theme-button btn ms-2 py-0 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   <span class="fs-5">Moyenne</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-start">

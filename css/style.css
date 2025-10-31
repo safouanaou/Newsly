@@ -2,9 +2,12 @@
 :root {
 
     --bg: #ffffff;
-    --text: #111111;
+    --primary-text: #201e1b;
+    --secondary-text: #ffffff;
+    --primary-color: #B6AE9F;
+    --secondary-color: #DEDED1;
     --border: #246cfd;
-    --accent: #2563eb;
+    --accent: #fffbeb;
 
     --font-size-default: 16px;
     --line-height: 1.5;
@@ -47,15 +50,19 @@ h2 {
     font-size: 1.3em;
 }
 
+.btn {
+    background-color: var(--accent);
+}
+
 #logo {
-    color: white;
+    color: var(--primary-text);
     font-size: 3em;
     font-family: jaro;
 
 }
 
 .main-header {
-    background-color: #2E2E2E;
+    background-color: var(--primary-color);
 }
 
 .navbar {
@@ -66,15 +73,15 @@ h2 {
 }
 
 .menu-link {
-    color: white;
+    color: rgb(56, 52, 49);
     text-decoration: none;
     font-family: jaro;
 }
 
 .secondary-header {
-    background-color: #E67373;
+    background-color: var(--secondary-color);
     font-family: jaro;
-    color: white; 
+    color: var(--primary-text); 
 
 }
 
