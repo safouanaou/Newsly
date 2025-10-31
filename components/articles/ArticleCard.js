@@ -2,14 +2,18 @@ const Card = {
     template: `
         <div class="d-flex flex-column article-card">
             <div class="image-container my-2 mx-2">
-                <img src="./media/0ab4193e0172a40f1fc2cc2c951024a2-1701435404.jpg" class="img-fluid w-100 h-100" alt="">
+                <img src="image" class="img-fluid w-100 h-100" alt="">
             </div>
-            <h2>Title</h2>
-            <p>55</p>
+            <h2>{{ title }}</h2>
+            <p v-if="isContentVisible>{{ content }}</p>
         </div>
     `,
 
-    props: [],
+    props: {
+        title: String,
+        image: String,
+        content: String,
+    },
 
     data(){
         return {
