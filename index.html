@@ -10,134 +10,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
-    <!---->
+
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  </head>
-  <body>
-
-    <!--Header-->
-    <!--TODO: center nav elements-->
-    <header>
-        <div class="main-header container-fluid py-1 d-flex align-items-center">
-          <h1 id="logo" class="ps-5">NEWSLY</h1>
-
-          <nav class="navbar navbar-expand-lg w-100">
-            <ul class="header-menu list-unstyled d-flex gap-5 fs-4 mx-auto">
-              <li><a href="" class="menu-link">Articles</a></li>
-              <li><a href="" class="menu-link">Contact</a></li>
-              <li><a href="" class="menu-link">A propos</a></li>
-            </ul>
-            <a href="">
-              <img id="search-icon" src="/assets/icons/magnifying-glass.svg" alt="search-icon" class="me-4">
-            </a>
-          </nav>
-          
-
-        </div>
-
-        <div class="secondary-header container-fluid d-flex py-2 justify-content-between align-items-center">
-          <div class="theme-taille-edit d-flex justify-content-center align-items-center">
-            <!--theme edit-->
-            <div class="theme-edit d-flex justify-content-center align-items-center me-5">
-              <h2 class="fs-4">Theme</h2>
-
-
-            <!--TODO: use the tags select and option instead of button and li -->
-            <div class="dropdown d-inline">
-              <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="fs-5">Light</span>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-start">
-                <li><a class="dropdown-item" href="">Light</a></li>
-                <li><a class="dropdown-item" href="">Dark</a></li>
-                <li><a class="dropdown-item" href="">Rose</a></li>
-              </ul>
-            </div>
-
-
-
-
-            </div>
-            <!--size edit-->
-            <div class="size-edit d-flex justify-content-center align-items-center">
-              <h2 class="fs-4">Taille</h2>
-
-
-
-            <div>
-              <button type="button" class="theme-button btn btn-light ms-2 py-0 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="fs-5">Moyenne</span>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-start">
-                <li><a class="dropdown-item" href="">Petite</a></li>
-                <li><a class="dropdown-item" href="">Moyenne</a></li>
-                <li><a class="dropdown-item" href="">Grande</a></li>
-
-              </ul>
-            </div>
-              
-
-
-
-            </div> 
-        
-          </div>
-          
-          <div class="coord-mouse d-flex justify-content-center align-items-center bg-light gap-3 px-3 fs-5">
-            X: --- , Y: ---
-          </div>
-        </div>
-    </header>
-
-    <!--main section-->
-
-    <main>
-      <section class="primary-news container-fluid py-5">
-          <h2 class="primary-news-title fs-1 fw-bold pb-3">À la Une</h2>
-          <div class="articles-container row my-4">
-
-            <div class="col-md-6">
-              <article class=" main-article h-100"></article>
-            </div>
-
-            <div class="secondary-news col-md-6">
-              <div class="row gap-1 mb-1">
-                <article class="col"></article>
-                <article class="col"></article>
-              </div>
-              <div class="row gap-1 mb-1">
-                <article class="col"></article>
-                <article class="col"></article>
-              </div>
-            </div>
-          </div>  
-      </section>
-
-      <aside class="container py-3">
-        <h2 class="primary-section-title fs-1 fw-bold pb-3">Autre actualités</h2>
-        <section class="secondary-news">
-          <div class="row gap-4 my-4">
-            <article class="col"></article>
-            <article class="col"></article>
-            <article class="col"></article>
-            <article class="col"></article>
-          </div>
-          
-
-        </section>
-      </aside>
-
-    </main>
-
-
-    <!--footer-->
- 
-    <footer>
-      <p class="text-light my-0">Realisé par Abdelilah Wadi & Safouan Aouezghar</hp>
-    </footer>
     
 
+  </head>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <body>
+    <div id="app">
+
+      <!--Header-->
+      <website-header></website-header>
+
+      <!--main section-->
+
+      <main>
+        <section class="primary-news container-fluid py-5">
+            <h2 class="primary-news-title fs-1 fw-bold pb-3">À la Une</h2>
+            <div class="articles-container row my-4">
+
+              <div class="col-md-6">
+                <article class=" main-article h-100"></article>
+              </div>
+
+              <div class="secondary-news col-md-6">
+                <div class="row gap-1 mb-1">
+                  <article class="col"></article>
+                  <article class="col"></article>
+                </div>
+                <div class="row gap-1 mb-1">
+                  <article class="col"></article>
+                  <article class="col"></article>
+                </div>
+              </div>
+            </div>  
+        </section>
+
+        <aside class="container py-3">
+          <h2 class="primary-section-title fs-1 fw-bold pb-3">Autre actualités</h2>
+          <section class="secondary-news">
+            <div class="row gap-4 my-4">
+              <article class="col"></article>
+              <article class="col"></article>
+              <article class="col"></article>
+              <article class="col"></article>
+            </div>
+            
+
+          </section>
+        </aside>
+
+      </main>
+
+
+      <!--footer-->
+  
+      <footer>
+        <p class="text-light my-0">Realisé par Abdelilah Wadi & Safouan Aouezghar</hp>
+      </footer>
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+      <script type="module" src="main.js"></script>
+    </div>
   </body>
 </html>

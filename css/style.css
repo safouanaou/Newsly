@@ -1,4 +1,47 @@
 /*Header*/
+:root {
+
+    --bg: #ffffff;
+    --text: #111111;
+    --border: #246cfd;
+    --accent: #2563eb;
+
+    --font-size-default: 16px;
+    --line-height: 1.5;
+
+}
+
+
+[data-theme="dark"] {
+    --bg: #0f1115;
+    --text: #e5e7eb;
+    --border: #2a2f3a;
+    --accent: #60a5fa;
+}
+
+
+[data-theme="rose"] {
+  --bg: #fff0f5;
+  --text: #7a003c;
+  --border: #f8cadd;
+  --accent: #d946ef;
+}
+
+
+
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+
+.main-header { background-color: var(--surface); }
+.secondary-header { background-color: var(--accent); }
+.main-article { background-color: var(--surface); }
+.secondary-news article { background-color: var(--accent); }
+.coord-mouse { color: var(--text); }
+
+
 
 h2 {
     font-size: 1.3em;
