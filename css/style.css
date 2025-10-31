@@ -144,7 +144,7 @@ aside {
 }
 
 .secondary-news article{
-        background-color: #E67373;
+        background-color: var(--secondary-color);
 
 
 }

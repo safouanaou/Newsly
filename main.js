@@ -1,4 +1,6 @@
 import websiteHeader from './components/header/Header.js';
+import HomePage from './components/HomePage.js'
+import Footer from './components/Footer.js'
 
 
 
@@ -10,7 +12,7 @@ const app = Vue.createApp({
             searchCriteria: {
                 title: '',
                 body: '',
-                category
+                category: ''
             },
 
             showAllSecondary: false,
@@ -276,4 +278,6 @@ const app = Vue.createApp({
 });
 
 app.component("website-header", websiteHeader);
+app.component("home-page", HomePage);
+app.component("website-footer", Footer);
 app.mount("#app");

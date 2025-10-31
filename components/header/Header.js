@@ -67,11 +67,31 @@ const websiteHeader = {
             </div>
             
             <div class="coord-mouse d-flex justify-content-center align-items-center bg-light gap-3 px-3 fs-5">
-              X: --- , Y: ---
+              X: {{ mouseX }}, Y: {{ mouseY }}
             </div>
           </div>
         </header>
-    `
+    `,
+
+    data(){
+      return {
+        mouseY: '',
+        mouseX: ''
+      }
+
+    },
+
+    mounted(){
+      window.addEventListener('mousemove', this.updateMouseCoords)
+    },
+
+    methods: {
+      updateMouseCoords(e){
+        this.mouseX = e.clientX
+        this.mouseY = e.clientY
+      },
+
+    }
 }
 
 export default websiteHeader
